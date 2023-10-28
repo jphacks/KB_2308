@@ -65,7 +65,7 @@ app.use("*", authMiddleWare);
 app.get("/", (c) => c.text("Hello Hono!"));
 
 /** プロフィールのget, post, put, delete */
-// 自分のプロフィールを見る
+// 自分のプロフィールを登録する
 app.post(
   "/profile",
   zValidator(
