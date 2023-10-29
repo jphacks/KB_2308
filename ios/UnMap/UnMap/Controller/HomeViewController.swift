@@ -12,7 +12,7 @@ import Supabase
 class HomeViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, CLLocationManagerDelegate {
     let friendLocations = [
         Friend(imagePath: "https://pbs.twimg.com/profile_images/1635460694740189185/NpDlT7bZ_400x400.jpg", userName: "中西直人", userId: "nanaonanika", location: "西宮市上ヶ原", updatedAt: Date().addingTimeInterval(-450)),
-        Friend(imagePath: "https://pbs.twimg.com/profile_images/1635460694740189185/NpDlT7bZ_400x400.jpg", userName: "栗本亮一", userId: "ryone9re", location: "📌渋谷スクランブル", updatedAt: Date().addingTimeInterval(-34))
+        Friend(imagePath: "https://pbs.twimg.com/profile_images/1472949617264578561/2dxc5OR6_400x400.png", userName: "栗本龍一", userId: "ryone9re", location: "📌いつものカフェ", updatedAt: Date().addingTimeInterval(-34))
     ]
     
     func numberOfSections(in tableView: UITableView) -> Int {
