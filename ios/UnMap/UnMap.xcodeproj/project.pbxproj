@@ -9,23 +9,49 @@
 /* Begin PBXBuildFile section */
 		DA80EDAC2AEC9E1E00B57B39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA80EDAB2AEC9E1E00B57B39 /* AppDelegate.swift */; };
 		DA80EDAE2AEC9E1E00B57B39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA80EDAD2AEC9E1E00B57B39 /* SceneDelegate.swift */; };
-		DA80EDB02AEC9E1E00B57B39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA80EDAF2AEC9E1E00B57B39 /* ViewController.swift */; };
+		DA80EDB02AEC9E1E00B57B39 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA80EDAF2AEC9E1E00B57B39 /* HomeViewController.swift */; };
 		DA80EDB32AEC9E1E00B57B39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA80EDB12AEC9E1E00B57B39 /* Main.storyboard */; };
 		DA80EDB62AEC9E1E00B57B39 /* UnMap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA80EDB42AEC9E1E00B57B39 /* UnMap.xcdatamodeld */; };
 		DA80EDB82AEC9E2000B57B39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA80EDB72AEC9E2000B57B39 /* Assets.xcassets */; };
 		DA80EDBB2AEC9E2000B57B39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA80EDB92AEC9E2000B57B39 /* LaunchScreen.storyboard */; };
+		DA80EDC72AECFFA000B57B39 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA80EDC62AECFFA000B57B39 /* CustomTextField.swift */; };
+		DA80EDC92AED1DE900B57B39 /* FriendLocationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA80EDC82AED1DE900B57B39 /* FriendLocationTableViewCell.swift */; };
+		DA80EDCB2AED647800B57B39 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA80EDCA2AED647800B57B39 /* Friend.swift */; };
+		DA80EDE22AEDD37600B57B39 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA80EDE12AEDD37600B57B39 /* MenuViewController.swift */; };
+		DA80EDE42AEDDED400B57B39 /* MenuItemButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA80EDE32AEDDED400B57B39 /* MenuItemButton.swift */; };
+		DA80EDE72AEDE1BD00B57B39 /* DeleteAccountButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA80EDE62AEDE1BD00B57B39 /* DeleteAccountButton.swift */; };
+		DA80EDE92AEDE32A00B57B39 /* AddFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA80EDE82AEDE32A00B57B39 /* AddFriendViewController.swift */; };
+		DA80EDEB2AEDE3B500B57B39 /* FriendRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA80EDEA2AEDE3B500B57B39 /* FriendRequestViewController.swift */; };
+		DA80EDED2AEDE3E300B57B39 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA80EDEC2AEDE3E300B57B39 /* SignUpViewController.swift */; };
+		DA80EDEF2AEDE42400B57B39 /* CreateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA80EDEE2AEDE42400B57B39 /* CreateProfileViewController.swift */; };
+		DA80EDF12AEDE46A00B57B39 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA80EDF02AEDE46A00B57B39 /* EditProfileViewController.swift */; };
+		DA80EDF32AEDE85B00B57B39 /* UnFriend.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA80EDF22AEDE85B00B57B39 /* UnFriend.swift */; };
+		DA80EDF52AEDEB5E00B57B39 /* AddFriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA80EDF42AEDEB5E00B57B39 /* AddFriendTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DA80EDA82AEC9E1E00B57B39 /* UnMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA80EDAB2AEC9E1E00B57B39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA80EDAD2AEC9E1E00B57B39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DA80EDAF2AEC9E1E00B57B39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA80EDAF2AEC9E1E00B57B39 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DA80EDB22AEC9E1E00B57B39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA80EDB52AEC9E1E00B57B39 /* UnMap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UnMap.xcdatamodel; sourceTree = "<group>"; };
 		DA80EDB72AEC9E2000B57B39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA80EDBA2AEC9E2000B57B39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA80EDBC2AEC9E2000B57B39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA80EDC62AECFFA000B57B39 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		DA80EDC82AED1DE900B57B39 /* FriendLocationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendLocationTableViewCell.swift; sourceTree = "<group>"; };
+		DA80EDCA2AED647800B57B39 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		DA80EDE12AEDD37600B57B39 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		DA80EDE32AEDDED400B57B39 /* MenuItemButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemButton.swift; sourceTree = "<group>"; };
+		DA80EDE62AEDE1BD00B57B39 /* DeleteAccountButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteAccountButton.swift; sourceTree = "<group>"; };
+		DA80EDE82AEDE32A00B57B39 /* AddFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendViewController.swift; sourceTree = "<group>"; };
+		DA80EDEA2AEDE3B500B57B39 /* FriendRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendRequestViewController.swift; sourceTree = "<group>"; };
+		DA80EDEC2AEDE3E300B57B39 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		DA80EDEE2AEDE42400B57B39 /* CreateProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileViewController.swift; sourceTree = "<group>"; };
+		DA80EDF02AEDE46A00B57B39 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		DA80EDF22AEDE85B00B57B39 /* UnFriend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnFriend.swift; sourceTree = "<group>"; };
+		DA80EDF42AEDEB5E00B57B39 /* AddFriendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +84,7 @@
 		DA80EDAA2AEC9E1E00B57B39 /* UnMap */ = {
 			isa = PBXGroup;
 			children = (
+				DA80EDC52AECFF4100B57B39 /* Utils */,
 				DA80EDAB2AEC9E1E00B57B39 /* AppDelegate.swift */,
 				DA80EDAD2AEC9E1E00B57B39 /* SceneDelegate.swift */,
 				DA80EDC42AEC9E6E00B57B39 /* Model */,
@@ -82,7 +109,13 @@
 		DA80EDC32AEC9E6000B57B39 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				DA80EDAF2AEC9E1E00B57B39 /* ViewController.swift */,
+				DA80EDAF2AEC9E1E00B57B39 /* HomeViewController.swift */,
+				DA80EDE12AEDD37600B57B39 /* MenuViewController.swift */,
+				DA80EDE82AEDE32A00B57B39 /* AddFriendViewController.swift */,
+				DA80EDEA2AEDE3B500B57B39 /* FriendRequestViewController.swift */,
+				DA80EDEC2AEDE3E300B57B39 /* SignUpViewController.swift */,
+				DA80EDEE2AEDE42400B57B39 /* CreateProfileViewController.swift */,
+				DA80EDF02AEDE46A00B57B39 /* EditProfileViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -90,8 +123,38 @@
 		DA80EDC42AEC9E6E00B57B39 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DA80EDCA2AED647800B57B39 /* Friend.swift */,
+				DA80EDF22AEDE85B00B57B39 /* UnFriend.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		DA80EDC52AECFF4100B57B39 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DA80EDC62AECFFA000B57B39 /* CustomTextField.swift */,
+				DA80EDF62AEDECAD00B57B39 /* Cell */,
+				DA80EDE52AEDE1A600B57B39 /* MenuItem */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DA80EDE52AEDE1A600B57B39 /* MenuItem */ = {
+			isa = PBXGroup;
+			children = (
+				DA80EDE32AEDDED400B57B39 /* MenuItemButton.swift */,
+				DA80EDE62AEDE1BD00B57B39 /* DeleteAccountButton.swift */,
+			);
+			path = MenuItem;
+			sourceTree = "<group>";
+		};
+		DA80EDF62AEDECAD00B57B39 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DA80EDC82AED1DE900B57B39 /* FriendLocationTableViewCell.swift */,
+				DA80EDF42AEDEB5E00B57B39 /* AddFriendTableViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,10 +228,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA80EDB02AEC9E1E00B57B39 /* ViewController.swift in Sources */,
+				DA80EDE72AEDE1BD00B57B39 /* DeleteAccountButton.swift in Sources */,
+				DA80EDEB2AEDE3B500B57B39 /* FriendRequestViewController.swift in Sources */,
+				DA80EDB02AEC9E1E00B57B39 /* HomeViewController.swift in Sources */,
+				DA80EDCB2AED647800B57B39 /* Friend.swift in Sources */,
+				DA80EDF52AEDEB5E00B57B39 /* AddFriendTableViewCell.swift in Sources */,
+				DA80EDF32AEDE85B00B57B39 /* UnFriend.swift in Sources */,
 				DA80EDAC2AEC9E1E00B57B39 /* AppDelegate.swift in Sources */,
+				DA80EDED2AEDE3E300B57B39 /* SignUpViewController.swift in Sources */,
+				DA80EDEF2AEDE42400B57B39 /* CreateProfileViewController.swift in Sources */,
+				DA80EDC92AED1DE900B57B39 /* FriendLocationTableViewCell.swift in Sources */,
+				DA80EDF12AEDE46A00B57B39 /* EditProfileViewController.swift in Sources */,
 				DA80EDAE2AEC9E1E00B57B39 /* SceneDelegate.swift in Sources */,
 				DA80EDB62AEC9E1E00B57B39 /* UnMap.xcdatamodeld in Sources */,
+				DA80EDE42AEDDED400B57B39 /* MenuItemButton.swift in Sources */,
+				DA80EDE92AEDE32A00B57B39 /* AddFriendViewController.swift in Sources */,
+				DA80EDC72AECFFA000B57B39 /* CustomTextField.swift in Sources */,
+				DA80EDE22AEDD37600B57B39 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
