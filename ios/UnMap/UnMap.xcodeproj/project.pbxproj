@@ -33,6 +33,8 @@
 		DA80EDFE2AEDFEE300B57B39 /* MySpot.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA80EDFD2AEDFEE300B57B39 /* MySpot.swift */; };
 		DA80EE002AEE032000B57B39 /* CreateMySpotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA80EDFF2AEE032000B57B39 /* CreateMySpotViewController.swift */; };
 		DA80EE022AEE033600B57B39 /* EditMySpotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA80EE012AEE033600B57B39 /* EditMySpotViewController.swift */; };
+		DAE5DE822AEE0DA800EFDE52 /* GeoLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE5DE812AEE0DA800EFDE52 /* GeoLocation.swift */; };
+		DAE5DE862AEE0F3100EFDE52 /* GeoLocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE5DE852AEE0F3100EFDE52 /* GeoLocationService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +66,8 @@
 		DA80EDFD2AEDFEE300B57B39 /* MySpot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySpot.swift; sourceTree = "<group>"; };
 		DA80EDFF2AEE032000B57B39 /* CreateMySpotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMySpotViewController.swift; sourceTree = "<group>"; };
 		DA80EE012AEE033600B57B39 /* EditMySpotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMySpotViewController.swift; sourceTree = "<group>"; };
+		DAE5DE812AEE0DA800EFDE52 /* GeoLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoLocation.swift; sourceTree = "<group>"; };
+		DAE5DE852AEE0F3100EFDE52 /* GeoLocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoLocationService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,7 @@
 		DA80EDAA2AEC9E1E00B57B39 /* UnMap */ = {
 			isa = PBXGroup;
 			children = (
+				DAE5DE842AEE0F2600EFDE52 /* Service */,
 				DA80EDC52AECFF4100B57B39 /* Utils */,
 				DA80EDAB2AEC9E1E00B57B39 /* AppDelegate.swift */,
 				DA80EDAD2AEC9E1E00B57B39 /* SceneDelegate.swift */,
@@ -141,6 +146,7 @@
 				DA80EDCA2AED647800B57B39 /* Friend.swift */,
 				DA80EDF22AEDE85B00B57B39 /* UnFriend.swift */,
 				DA80EDFD2AEDFEE300B57B39 /* MySpot.swift */,
+				DAE5DE812AEE0DA800EFDE52 /* GeoLocation.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -173,6 +179,14 @@
 				DA80EDFB2AEDFD3100B57B39 /* MySpotTableViewCell.swift */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		DAE5DE842AEE0F2600EFDE52 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				DAE5DE852AEE0F3100EFDE52 /* GeoLocationService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAE5DE822AEE0DA800EFDE52 /* GeoLocation.swift in Sources */,
 				DA80EDF82AEDF3EE00B57B39 /* FriendRequestTableViewCell.swift in Sources */,
 				DA80EDE72AEDE1BD00B57B39 /* DeleteAccountButton.swift in Sources */,
 				DA80EDFA2AEDFB5700B57B39 /* MySpotViewController.swift in Sources */,
@@ -257,6 +272,7 @@
 				DA80EDF32AEDE85B00B57B39 /* UnFriend.swift in Sources */,
 				DA80EDAC2AEC9E1E00B57B39 /* AppDelegate.swift in Sources */,
 				DA80EDED2AEDE3E300B57B39 /* SignUpViewController.swift in Sources */,
+				DAE5DE862AEE0F3100EFDE52 /* GeoLocationService.swift in Sources */,
 				DA80EDEF2AEDE42400B57B39 /* CreateProfileViewController.swift in Sources */,
 				DA80EDC92AED1DE900B57B39 /* FriendLocationTableViewCell.swift in Sources */,
 				DA80EDFE2AEDFEE300B57B39 /* MySpot.swift in Sources */,
