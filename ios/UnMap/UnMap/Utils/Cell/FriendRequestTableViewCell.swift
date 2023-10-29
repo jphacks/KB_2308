@@ -1,5 +1,5 @@
 //
-//  AddFriendTableViewCell.swift
+//  FriendRequestTableViewCell.swift
 //  UnMap
 //
 //  Created by 中西直人 on 2023/10/29.
@@ -7,15 +7,15 @@
 
 import UIKit
 
-class AddFriendTableViewCell: UITableViewCell {
+class FriendRequestTableViewCell: UITableViewCell {
 
     @IBOutlet weak var userImage: UIImageView!
     @IBOutlet weak var userNameLabel: UILabel!
     @IBOutlet weak var userIdLabel: UILabel!
-    @IBOutlet weak var followButton: UIButton!
-
-    @IBAction func followPressed(_ sender: Any) {
-        print("Pressed follow button")
+    
+    @IBAction func acceptPressed(_ sender: UIButton) {
+    }
+    @IBAction func declinePressed(_ sender: UIButton) {
     }
     
     func setCell(_ unFriend: UnFriend) {

@@ -51,7 +51,20 @@ class MenuViewController: UIViewController {
             }
         }
     }
+    
+    @IBAction func goToMySpotPressed(_ sender: UIButton) {
+    }
     @IBAction func goToFriendRequestPressed(_ sender: Any) {
         self.performSegue(withIdentifier: "goToFriendRequest", sender: self)
     }
+    @IBAction func goToEditProfilePressed(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "goToEditProfile", sender: self)
+    }
+    
+    @IBAction func deleteAccountPressed(_ sender: UIButton) {
+    }
+    @IBAction func logoutPressed(_ sender: UIButton) {
+    }
+    
+    
 }

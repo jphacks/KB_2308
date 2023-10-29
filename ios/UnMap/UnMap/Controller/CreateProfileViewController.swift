@@ -9,21 +9,19 @@ import UIKit
 
 class CreateProfileViewController: UIViewController {
 
+    @IBOutlet weak var userNameTextField: CustomTextField!
+    @IBOutlet weak var userIdTextField: CustomTextField!
+    @IBOutlet weak var userNameErrorLabel: UILabel!
+    @IBOutlet weak var userIdErrorLabel: UILabel!
+    @IBOutlet weak var saveButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func selectImagePressed(_ sender: UIButton) {
     }
-    */
-
+    @IBAction func savePressed(_ sender: Any) {
+    }
 }
