@@ -7,11 +7,12 @@
 
 import UIKit
 import CoreLocation
+import Supabase
 
 class HomeViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, CLLocationManagerDelegate {
     let friendLocations = [
         Friend(imagePath: "https://pbs.twimg.com/profile_images/1635460694740189185/NpDlT7bZ_400x400.jpg", userName: "中西直人", userId: "nanaonanika", location: "西宮市上ヶ原", updatedAt: Date().addingTimeInterval(-450)),
-        Friend(imagePath: "https://pbs.twimg.com/profile_images/1635460694740189185/NpDlT7bZ_400x400.jpg", userName: "中西直", userId: "nanaonanika", location: "西宮市上ヶ原", updatedAt: Date().addingTimeInterval(-450))
+        Friend(imagePath: "https://pbs.twimg.com/profile_images/1635460694740189185/NpDlT7bZ_400x400.jpg", userName: "栗本亮一", userId: "ryone9re", location: "📌渋谷スクランブル", updatedAt: Date().addingTimeInterval(-34))
     ]
     
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -67,6 +68,8 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
             locationManager!.startUpdatingLocation()
             
         }
+        
+        let client = SupabaseClient(supabaseURL: URL(string: "https://jbigttrcudubidekcqnu.supabase.co")!, supabaseKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpiaWd0dHJjdWR1YmlkZWtjcW51Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTgzMjczMzQsImV4cCI6MjAxMzkwMzMzNH0.smoELkzmzlVHUR5iJdIGJze9YLzCnmv_Rd_vzjCMfVk")
     }
     
     // 位置情報を取得した場合

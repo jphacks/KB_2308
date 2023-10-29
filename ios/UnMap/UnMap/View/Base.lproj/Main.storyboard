@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9lL-iP-zB5">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
@@ -14,29 +14,29 @@
             <objects>
                 <viewController id="BYZ-38-t0r" userLabel="Home View Controller" customClass="HomeViewController" customModule="UnMap" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="s2k-ld-pIB">
-                                <rect key="frame" x="0.0" y="50" width="375" height="762"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="802"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" spacing="53" translatesAutoresizingMaskIntoConstraints="NO" id="enE-at-JvF">
-                                        <rect key="frame" x="15" y="0.0" width="345" height="48"/>
+                                        <rect key="frame" x="15" y="0.0" width="345" height="88"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LnR-Xh-ob5">
-                                                <rect key="frame" x="0.0" y="0.0" width="72" height="48"/>
+                                                <rect key="frame" x="0.0" y="13" width="72" height="62"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="MenuBarIcon"/>
                                                 <connections>
                                                     <segue destination="cRA-kQ-icA" kind="presentation" modalPresentationStyle="overCurrentContext" modalTransitionStyle="crossDissolve" id="v68-4V-H0w"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UnMap" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xu1-yc-lU4">
-                                                <rect key="frame" x="125.33333333333334" y="0.0" width="123.66666666666666" height="48"/>
+                                                <rect key="frame" x="125.33333333333334" y="20" width="123.66666666666666" height="48"/>
                                                 <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="35"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1RP-9i-Npz">
-                                                <rect key="frame" x="302" y="7.6666666666666643" width="43" height="33"/>
+                                                <rect key="frame" x="302" y="27.666666666666671" width="43" height="33"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="AddIcon" imagePadding="0.0">
                                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="large"/>
@@ -48,7 +48,7 @@
                                         </subviews>
                                     </stackView>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="86" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="wPe-I3-T4a">
-                                        <rect key="frame" x="15" y="56" width="345" height="706"/>
+                                        <rect key="frame" x="15" y="96" width="345" height="706"/>
                                         <color key="backgroundColor" name="MainViewBackgroundColor"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="friendLocationTableCell" id="MAy-dk-ZqN" customClass="FriendLocationTableViewCell" customModule="UnMap" customModuleProvider="target">
@@ -199,6 +199,7 @@
                             <constraint firstAttribute="bottom" secondItem="s2k-ld-pIB" secondAttribute="bottom" id="VuF-1o-r0D"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="7n8-Nf-MbX"/>
                     <connections>
                         <segue destination="GB3-yE-sWj" kind="presentation" identifier="goToAddFriend" id="3oA-h6-7qA"/>
                     </connections>
@@ -665,6 +666,9 @@
                                                         <integer key="value" value="20"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="signInWithApplePressed:" destination="9lL-iP-zB5" eventType="touchUpInside" id="3Gf-Zn-fSx"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -870,6 +874,7 @@
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
                                                     <action selector="savePressed:" destination="I28-g3-dQ3" eventType="touchUpInside" id="yBe-IK-AM8"/>
+                                                    <segue destination="BYZ-38-t0r" kind="showDetail" id="cUp-zn-MfP"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -918,11 +923,11 @@
             <objects>
                 <viewController modalPresentationStyle="overCurrentContext" id="cRA-kQ-icA" customClass="MenuViewController" customModule="UnMap" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" tag="1" contentMode="scaleToFill" id="Jzi-52-K8v">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hvs-Lh-Ar4">
-                                <rect key="frame" x="0.0" y="0.0" width="277" height="812"/>
+                                <rect key="frame" x="0.0" y="0.0" width="277" height="802"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="XHL-aC-xZy">
                                         <rect key="frame" x="15" y="60" width="247" height="52"/>
@@ -1027,7 +1032,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="dJv-2U-78G">
-                                        <rect key="frame" x="15" y="689.66666666666663" width="247" height="61"/>
+                                        <rect key="frame" x="15" y="679.66666666666663" width="247" height="61"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yQq-uP-0Er" customClass="DeleteAccountButton" customModule="UnMap" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="247" height="24"/>
@@ -1066,7 +1071,7 @@
                                         </subviews>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="version 1.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UhP-sK-eXQ">
-                                        <rect key="frame" x="98.333333333333314" y="772.66666666666663" width="80.666666666666686" height="20.333333333333371"/>
+                                        <rect key="frame" x="98.333333333333314" y="762.66666666666663" width="80.666666666666686" height="20.333333333333371"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" systemColor="systemGray3Color"/>
                                         <nil key="highlightedColor"/>

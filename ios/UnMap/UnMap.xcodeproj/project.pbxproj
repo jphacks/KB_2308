@@ -35,6 +35,8 @@
 		DA80EE022AEE033600B57B39 /* EditMySpotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA80EE012AEE033600B57B39 /* EditMySpotViewController.swift */; };
 		DAE5DE822AEE0DA800EFDE52 /* GeoLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE5DE812AEE0DA800EFDE52 /* GeoLocation.swift */; };
 		DAE5DE862AEE0F3100EFDE52 /* GeoLocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE5DE852AEE0F3100EFDE52 /* GeoLocationService.swift */; };
+		DAE5DE892AEE243200EFDE52 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = DAE5DE882AEE243200EFDE52 /* Supabase */; };
+		DAE5DE8B2AEE251500EFDE52 /* SupabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE5DE8A2AEE251500EFDE52 /* SupabaseService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +70,7 @@
 		DA80EE012AEE033600B57B39 /* EditMySpotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMySpotViewController.swift; sourceTree = "<group>"; };
 		DAE5DE812AEE0DA800EFDE52 /* GeoLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoLocation.swift; sourceTree = "<group>"; };
 		DAE5DE852AEE0F3100EFDE52 /* GeoLocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoLocationService.swift; sourceTree = "<group>"; };
+		DAE5DE8A2AEE251500EFDE52 /* SupabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupabaseService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAE5DE892AEE243200EFDE52 /* Supabase in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				DAE5DE852AEE0F3100EFDE52 /* GeoLocationService.swift */,
+				DAE5DE8A2AEE251500EFDE52 /* SupabaseService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -205,6 +210,9 @@
 			dependencies = (
 			);
 			name = UnMap;
+			packageProductDependencies = (
+				DAE5DE882AEE243200EFDE52 /* Supabase */,
+			);
 			productName = UnMap;
 			productReference = DA80EDA82AEC9E1E00B57B39 /* UnMap.app */;
 			productType = "com.apple.product-type.application";
@@ -233,6 +241,9 @@
 				Base,
 			);
 			mainGroup = DA80ED9F2AEC9E1E00B57B39;
+			packageReferences = (
+				DAE5DE872AEE243200EFDE52 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			productRefGroup = DA80EDA92AEC9E1E00B57B39 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -271,6 +282,7 @@
 				DA80EDF52AEDEB5E00B57B39 /* AddFriendTableViewCell.swift in Sources */,
 				DA80EDF32AEDE85B00B57B39 /* UnFriend.swift in Sources */,
 				DA80EDAC2AEC9E1E00B57B39 /* AppDelegate.swift in Sources */,
+				DAE5DE8B2AEE251500EFDE52 /* SupabaseService.swift in Sources */,
 				DA80EDED2AEDE3E300B57B39 /* SignUpViewController.swift in Sources */,
 				DAE5DE862AEE0F3100EFDE52 /* GeoLocationService.swift in Sources */,
 				DA80EDEF2AEDE42400B57B39 /* CreateProfileViewController.swift in Sources */,
@@ -502,6 +514,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DAE5DE872AEE243200EFDE52 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DAE5DE882AEE243200EFDE52 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAE5DE872AEE243200EFDE52 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		DA80EDB42AEC9E1E00B57B39 /* UnMap.xcdatamodeld */ = {
