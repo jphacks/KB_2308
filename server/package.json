@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "dev": "wrangler dev src/index.ts",
+    "deploy": "wrangler deploy --minify src/index.ts",
+    "typegen": "supabase gen types typescript --project-id jbigttrcudubidekcqnu > src/infrastructure/db/supabase.types.ts"
+  },
+  "dependencies": {
+    "@hono/zod-validator": "^0.1.10",
+    "@supabase/supabase-js": "^2.38.4",
+    "hono": "^3.8.2",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230914.0",
+    "supabase": "^1.106.1",
+    "wrangler": "^3.14.0"
+  }
+}
