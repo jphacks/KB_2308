@@ -24,7 +24,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "friendLocationTableCell", for: indexPath) as! FriendLocationTableViewCell
         
-        cell.setCell(friendLocation: friendLocations[indexPath.row])
+        cell.setCell(friendLocation: friendLocations[indexPath.section])
         
         return cell
     }

@@ -53,6 +53,7 @@ class MenuViewController: UIViewController {
     }
     
     @IBAction func goToMySpotPressed(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "goToMySpot", sender: self)
     }
     @IBAction func goToFriendRequestPressed(_ sender: Any) {
         self.performSegue(withIdentifier: "goToFriendRequest", sender: self)

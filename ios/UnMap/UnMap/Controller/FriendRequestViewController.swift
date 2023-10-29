@@ -25,7 +25,7 @@ class FriendRequestViewController: UIViewController, UITableViewDelegate, UITabl
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "friendRequestTableCell", for: indexPath) as! FriendRequestTableViewCell
         
-        cell.setCell(unFriends[indexPath.row])
+        cell.setCell(unFriends[indexPath.section])
         
         return cell
     }

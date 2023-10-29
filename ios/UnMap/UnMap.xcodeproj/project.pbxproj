@@ -28,6 +28,11 @@
 		DA80EDF32AEDE85B00B57B39 /* UnFriend.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA80EDF22AEDE85B00B57B39 /* UnFriend.swift */; };
 		DA80EDF52AEDEB5E00B57B39 /* AddFriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA80EDF42AEDEB5E00B57B39 /* AddFriendTableViewCell.swift */; };
 		DA80EDF82AEDF3EE00B57B39 /* FriendRequestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA80EDF72AEDF3EE00B57B39 /* FriendRequestTableViewCell.swift */; };
+		DA80EDFA2AEDFB5700B57B39 /* MySpotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA80EDF92AEDFB5700B57B39 /* MySpotViewController.swift */; };
+		DA80EDFC2AEDFD3100B57B39 /* MySpotTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA80EDFB2AEDFD3100B57B39 /* MySpotTableViewCell.swift */; };
+		DA80EDFE2AEDFEE300B57B39 /* MySpot.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA80EDFD2AEDFEE300B57B39 /* MySpot.swift */; };
+		DA80EE002AEE032000B57B39 /* CreateMySpotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA80EDFF2AEE032000B57B39 /* CreateMySpotViewController.swift */; };
+		DA80EE022AEE033600B57B39 /* EditMySpotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA80EE012AEE033600B57B39 /* EditMySpotViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +59,11 @@
 		DA80EDF22AEDE85B00B57B39 /* UnFriend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnFriend.swift; sourceTree = "<group>"; };
 		DA80EDF42AEDEB5E00B57B39 /* AddFriendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendTableViewCell.swift; sourceTree = "<group>"; };
 		DA80EDF72AEDF3EE00B57B39 /* FriendRequestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendRequestTableViewCell.swift; sourceTree = "<group>"; };
+		DA80EDF92AEDFB5700B57B39 /* MySpotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySpotViewController.swift; sourceTree = "<group>"; };
+		DA80EDFB2AEDFD3100B57B39 /* MySpotTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySpotTableViewCell.swift; sourceTree = "<group>"; };
+		DA80EDFD2AEDFEE300B57B39 /* MySpot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySpot.swift; sourceTree = "<group>"; };
+		DA80EDFF2AEE032000B57B39 /* CreateMySpotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMySpotViewController.swift; sourceTree = "<group>"; };
+		DA80EE012AEE033600B57B39 /* EditMySpotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMySpotViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +128,9 @@
 				DA80EDEC2AEDE3E300B57B39 /* SignUpViewController.swift */,
 				DA80EDEE2AEDE42400B57B39 /* CreateProfileViewController.swift */,
 				DA80EDF02AEDE46A00B57B39 /* EditProfileViewController.swift */,
+				DA80EDF92AEDFB5700B57B39 /* MySpotViewController.swift */,
+				DA80EDFF2AEE032000B57B39 /* CreateMySpotViewController.swift */,
+				DA80EE012AEE033600B57B39 /* EditMySpotViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -127,6 +140,7 @@
 			children = (
 				DA80EDCA2AED647800B57B39 /* Friend.swift */,
 				DA80EDF22AEDE85B00B57B39 /* UnFriend.swift */,
+				DA80EDFD2AEDFEE300B57B39 /* MySpot.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -156,6 +170,7 @@
 				DA80EDC82AED1DE900B57B39 /* FriendLocationTableViewCell.swift */,
 				DA80EDF42AEDEB5E00B57B39 /* AddFriendTableViewCell.swift */,
 				DA80EDF72AEDF3EE00B57B39 /* FriendRequestTableViewCell.swift */,
+				DA80EDFB2AEDFD3100B57B39 /* MySpotTableViewCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -233,7 +248,9 @@
 			files = (
 				DA80EDF82AEDF3EE00B57B39 /* FriendRequestTableViewCell.swift in Sources */,
 				DA80EDE72AEDE1BD00B57B39 /* DeleteAccountButton.swift in Sources */,
+				DA80EDFA2AEDFB5700B57B39 /* MySpotViewController.swift in Sources */,
 				DA80EDEB2AEDE3B500B57B39 /* FriendRequestViewController.swift in Sources */,
+				DA80EE022AEE033600B57B39 /* EditMySpotViewController.swift in Sources */,
 				DA80EDB02AEC9E1E00B57B39 /* HomeViewController.swift in Sources */,
 				DA80EDCB2AED647800B57B39 /* Friend.swift in Sources */,
 				DA80EDF52AEDEB5E00B57B39 /* AddFriendTableViewCell.swift in Sources */,
@@ -242,13 +259,16 @@
 				DA80EDED2AEDE3E300B57B39 /* SignUpViewController.swift in Sources */,
 				DA80EDEF2AEDE42400B57B39 /* CreateProfileViewController.swift in Sources */,
 				DA80EDC92AED1DE900B57B39 /* FriendLocationTableViewCell.swift in Sources */,
+				DA80EDFE2AEDFEE300B57B39 /* MySpot.swift in Sources */,
 				DA80EDF12AEDE46A00B57B39 /* EditProfileViewController.swift in Sources */,
 				DA80EDAE2AEC9E1E00B57B39 /* SceneDelegate.swift in Sources */,
 				DA80EDB62AEC9E1E00B57B39 /* UnMap.xcdatamodeld in Sources */,
 				DA80EDE42AEDDED400B57B39 /* MenuItemButton.swift in Sources */,
 				DA80EDE92AEDE32A00B57B39 /* AddFriendViewController.swift in Sources */,
+				DA80EE002AEE032000B57B39 /* CreateMySpotViewController.swift in Sources */,
 				DA80EDC72AECFFA000B57B39 /* CustomTextField.swift in Sources */,
 				DA80EDE22AEDD37600B57B39 /* MenuViewController.swift in Sources */,
+				DA80EDFC2AEDFD3100B57B39 /* MySpotTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
