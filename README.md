@@ -1,6 +1,7 @@
 # UnMap (アンマップ)
 
-[![IMAGE ALT TEXT HERE](https://jphacks.com/wp-content/uploads/2023/07/JPHACKS2023_ogp.png)](https://www.youtube.com/watch?v=yYRQEdfGjEg)
+![unmap_logo](https://github.com/jphacks/KB_2308/assets/48846406/bb5add03-e164-4291-ac62-efd631c55d01)
+
 
 ## 製品概要
 
@@ -44,6 +45,7 @@ UnMapは位置情報を文章として共有します。そのため、GPSなど
 UnMapではシンプルなデザインを心がけました。より幅広い方に位置情報共有サービスの利便性を知ってもらうため、迷う要素の少ないデザインを心がけました。
 
 また、今後はアクセシビリティ対応に注力する予定で、例えば目の不自由な方が相手と位置情報を共有する際には、文字の情報を他の感覚として変換することがとても重要だと考えています。文字を主として扱うUnMapが解決すべき課題の1つだと感じており、より充実させていくことを目標としています。
+![unmap_screen](https://github.com/jphacks/KB_2308/assets/48846406/fea4f0a1-cdf8-445f-9007-e6dca1248ff4)
 
 #### 3. 特長3
 
